@@ -37,5 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Ocean Professional background */
   background: #f9fafb;
+  color: var(--color-121212);
 }

@@ -18,6 +18,9 @@ In the project directory, you can run:
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+For CI/non-interactive environments, use:
+`npm run start:ci` which sets HOST=0.0.0.0, PORT from REACT_APP_PORT (default 3000), and disables opening the browser.
+
 ### `npm test`
 
 Launches the test runner in interactive watch mode.

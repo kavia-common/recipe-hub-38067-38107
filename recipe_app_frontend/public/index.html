@@ -3,19 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#2563EB" />
-    <meta name="description" content="Recipe Hub Frontend" />
-    <!-- External styles used by SignIn screen -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/common.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/sign-in-11-235.css">
+    <meta name="viewport" content="width=375, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Recipe Hub Frontend - Discover, manage, and share recipes"
+    />
     <title>Recipe Hub</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Poppins + SF Pro fallback -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Global styles from extracted Figma assets served from public/assets -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/common.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/sign-in-11-235.css" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Optional global scripts from assets (safe to include, no-op if unused) -->
+    <script src="%PUBLIC_URL%/assets/app.js"></script>
+    <script src="%PUBLIC_URL%/assets/sign-in-11-235.js"></script>
   </body>
 </html>

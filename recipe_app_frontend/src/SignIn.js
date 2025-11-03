@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import './signin.css';
 
-// PUBLIC_INTERFACE
+ // PUBLIC_INTERFACE
 export default function SignIn() {
   /**
    * This component renders the Sign In screen adapted from the provided Figma export.
    * It uses the flattened HTML/CSS structure while translating to JSX semantics.
-   * Assets are served from /assets copied into public.
+   * Assets are served from /assets (i.e., recipe_app_frontend/public/assets), linked in public/index.html.
    */
   return (
     <div id="screen-sign-in-11-235" className="screen style-10" role="main" aria-label="Sign In Screen">
