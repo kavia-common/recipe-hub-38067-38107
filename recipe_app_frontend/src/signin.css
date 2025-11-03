@@ -1,0 +1,41 @@
+/* Note: external CSS from assets is linked via public/index.html to be available at runtime */
+
+/* Additional a11y and input/button styles for React components */
+.input-like {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--typo-61-family);
+  font-size: 14px;
+  color: var(--color-121212);
+}
+
+.linklike {
+  background: transparent;
+  border: none;
+  color: var(--color-ff9c00);
+  cursor: pointer;
+  padding: 0;
+}
+
+.cta {
+  border: none;
+  cursor: pointer;
+}
+
+.social {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Ensure the app centers the 375x812 artboard on desktop */
+#root, body, html {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+}
